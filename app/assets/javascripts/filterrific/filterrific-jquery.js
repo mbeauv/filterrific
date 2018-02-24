@@ -88,7 +88,7 @@ Filterrific.init = function() {
 
   // Add periodic observer to selected inputs.
   // Use this for text fields you want to observe for change, e.g., a search input.
-  if $(".filterrific-periodically-observed").length > 0 {
+  if ($(".filterrific-periodically-observed").length > 0) {
     $(".filterrific-periodically-observed").filterrific_observe_field(
       0.5,
       Filterrific.submitFilterForm
